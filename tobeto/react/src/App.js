@@ -18,7 +18,7 @@ function TodoApp() {
       value: newTodo
     }
     setTodos(oldTodos => [...oldTodos, todo])
-    setNewTodo("")
+    setNewTodo("")a
   }
 
   function handleDeleteTodo(id){
